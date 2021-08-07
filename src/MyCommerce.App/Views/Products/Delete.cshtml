@@ -1,0 +1,56 @@
+﻿@model MyCommerce.App.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = "Exclur " + Model.Name;
+}
+
+<h4 style="padding-top: 50px">@ViewData["Title"]</h4>
+
+<h5>Você tem certeza disso?</h5>
+<div>
+  <div class="col-md-4">
+    <img src="~/img/@Model.Image" alt="@Model.Image" style="width: 300px; height: 428px" />
+  </div>
+  <div class="col-md-6">
+    <dl>
+      <dt>
+        @Html.DisplayNameFor(model => model.Name)
+      </dt>
+      <dd>
+        @Html.DisplayFor(model => model.Name)
+      </dd>
+      <dt>
+        @Html.DisplayNameFor(model => model.Description)
+      </dt>
+      <dd>
+        @Html.DisplayFor(model => model.Description)
+      </dd>
+      <dt>
+        @Html.DisplayNameFor(model => model.Price)
+      </dt>
+      <dd>
+        @model.Price.ToString("C")
+      </dd>
+      <dt>
+        @Html.DisplayNameFor(model => model.RegisterDate)
+      </dt>
+      <dd>
+        @Html.DisplayFor(model => model.RegisterDate)
+      </dd>
+      <dt>
+        @Html.DisplayNameFor(model => model.Active)
+      </dt>
+      <dd>
+        @Html.DisplayFor(model => model.Active)
+      </dd>
+    </dl>
+  </div>
+
+  <div>
+    <form asp-action="Delete">
+      <input type="hidden" asp-for="Id" />
+      <input type="submit" value="Excluir" class="btn btn-danger" /> |
+      <a class="btn btn-info" href="javascript:window.history.back();">Voltar</a>
+    </form>
+  </div>
+</div>

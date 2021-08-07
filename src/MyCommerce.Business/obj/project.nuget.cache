@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EJ3i+i58HXLky8izyhrpdgMdrfullDJVkbZ6MIz341W/seW1m74dL6xqjKUqf3GRAM3zsLozfhpjArxyfWwXAg==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\MyCommerce\\src\\MyCommerce.Business\\MyCommerce.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olive\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

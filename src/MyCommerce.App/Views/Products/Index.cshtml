@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MyCommerce.App.ViewModels.ProductViewModel>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<h2>@ViewData["Title"]</h2>
+<vc:summary></vc:summary>
+<p>
+  <a class="btn btn-primary" asp-action="Create">Cadastrar Produto</a>
+</p>
+<partial name="_ProductsList" />

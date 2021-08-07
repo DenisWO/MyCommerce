@@ -1,0 +1,9 @@
+D:\GitHub\MyCommerce\src\MyCommerce.Business\bin\Debug\netcoreapp3.1\MyCommerce.Business.deps.json
+D:\GitHub\MyCommerce\src\MyCommerce.Business\bin\Debug\netcoreapp3.1\MyCommerce.Business.dll
+D:\GitHub\MyCommerce\src\MyCommerce.Business\bin\Debug\netcoreapp3.1\MyCommerce.Business.pdb
+D:\GitHub\MyCommerce\src\MyCommerce.Business\obj\Debug\netcoreapp3.1\MyCommerce.Business.csproj.AssemblyReference.cache
+D:\GitHub\MyCommerce\src\MyCommerce.Business\obj\Debug\netcoreapp3.1\MyCommerce.Business.AssemblyInfoInputs.cache
+D:\GitHub\MyCommerce\src\MyCommerce.Business\obj\Debug\netcoreapp3.1\MyCommerce.Business.AssemblyInfo.cs
+D:\GitHub\MyCommerce\src\MyCommerce.Business\obj\Debug\netcoreapp3.1\MyCommerce.Business.csproj.CoreCompileInputs.cache
+D:\GitHub\MyCommerce\src\MyCommerce.Business\obj\Debug\netcoreapp3.1\MyCommerce.Business.dll
+D:\GitHub\MyCommerce\src\MyCommerce.Business\obj\Debug\netcoreapp3.1\MyCommerce.Business.pdb
